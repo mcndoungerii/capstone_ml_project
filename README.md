@@ -106,7 +106,7 @@ streamlit run main.py
 ## Contact <small id='contact'></small>
 
 Your Name - [@AllenMwandunga](https://www.linkedin.com/in/bextuychiev/) -
-bex@ibexprogramming.com
+allen.mwandunga@stud.fh-dortmund.de
 
 Project
 Link: [https://github.com/mcndoungerii/capstone_ml_project](https://github.com/BexTuychiev/streamlitbook)

@@ -1,0 +1,37 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["strimlitbook*"]
+exclude = ["images*"]
+namespaces = false
+
+[tool.setuptools.dynamic]
+version = { attr = "strimlitbook.VERSION" }
+readme = { file = ["README.md"] }
+
+[project]
+name = "strimlitbook"
+version = "0.1.0"
+description = "Convert Jupyter Notebooks to identical Streamlit web apps."
+readme = "README.md"
+authors = [{ name = "Allen Mwandunga", email = "allen.mwandunga001@stud.fh-dortmund.de" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["streamlit", "strimlitbook", "jupyter",
+    "jupyter notebook", "notebook", "web app"]
+dependencies = [
+    'streamlit', 'numpy', 'pandas', 'plotly', 'Pillow', 'matplotlib', 'scikit-learn', 'lxml'
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/mcndoungerii/capstone_ml_project"

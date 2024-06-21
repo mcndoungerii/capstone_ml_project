@@ -4,10 +4,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/mcndoungerii/capstone_ml_project">
-    <img src="images/temp_logo.png" alt="Logo" width="240" height="160">
+    <h1 align="center">Streamlit NoteBook</h1>
   </a>
-
-<h1 align="center">Streamlit NoteBook</h1>
 
   <p align="center">
     Convert any Jupyter Notebook to identical Streamlit web apps and make your ML apps even more awesome.

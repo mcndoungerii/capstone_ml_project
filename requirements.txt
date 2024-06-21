@@ -1,0 +1,9 @@
+numpy
+pandas
+Pillow
+plotly
+setuptools
+streamlit~=1.30.0
+matplotlib
+scikit-learn
+lxml

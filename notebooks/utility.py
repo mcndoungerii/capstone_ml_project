@@ -17,7 +17,7 @@ max_features_list: list = [None, 'sqrt', 'log2']
 def load_malicious_benign_data() -> pd.DataFrame:
 
     # Load the dataset
-    df = pd.read_csv("../data/dataset_Malicious_and_Benign_Websites.csv")
+    df = pd.read_csv("data/dataset_Malicious_and_Benign_Websites.csv")
 
     # Convert date columns to datetime objects
     df['WHOIS_REGDATE'] = pd.to_datetime(df['WHOIS_REGDATE'], errors='coerce')

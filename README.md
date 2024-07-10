@@ -56,7 +56,7 @@ like linking to external links or docs where they outlined their approach.
 My idea was that developers should be able to do that right in the app itself. The process
 should be simple and require as little code as possible. And thus Strimlit NoteBook was born.
 
-StrimlitBook is an API that allows you to convert Jupyter Notebooks to identical
+StrimlitNoteBook is an API that allows you to convert Jupyter Notebooks to identical
 Streamlit components which you can embed right into your scripts where you build your
 Streamlit apps.
 

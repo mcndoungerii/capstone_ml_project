@@ -63,10 +63,13 @@ Streamlit apps.
 As the project is still in local development, you can only try out the project via
 cloning. Here are the instructions:
 
+```bash
+git clone https://github.com/mcndoungerii/capstone_ml_project.git
+```
+
 ### Installation <small id='installation'></small>
 
 ```bash
-git clone https://github.com/mcndoungerii/capstone_ml_project.git
 pip install -r requirements.txt
 ```
 

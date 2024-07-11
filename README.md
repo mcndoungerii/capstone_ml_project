@@ -64,7 +64,7 @@ As the project is still in local development, you can only try out the project v
 cloning. Here are the instructions:
 
 ```bash
-git clone https://github.com/mcndoungerii/capstone_ml_project.git
+git clone https://git.inf.fh-dortmund.de/01/almwa001/capstone_ml_project.git
 ```
 
 ### Installation <small id='installation'></small>
@@ -93,10 +93,10 @@ streamlit run main.py
 
 ## Contact <small id='contact'></small>
 
-Your Name - [@AllenMwandunga](https://www.linkedin.com/in/bextuychiev/) -
+Your Name - [@AllenMwandunga](https://www.linkedin.com/in/mcndoungerii/) -
 allen.mwandunga@stud.fh-dortmund.de
 
 Project
-Link: [https://github.com/mcndoungerii/capstone_ml_project](https://github.com/BexTuychiev/streamlitbook)
+Link: [https://git.inf.fh-dortmund.de/01/almwa001/capstone_ml_project.git](https://git.inf.fh-dortmund.de/01/almwa001/capstone_ml_project.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>

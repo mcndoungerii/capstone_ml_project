@@ -77,7 +77,7 @@ st.markdown(
     }
     </style>
     <div class="footer">
-        <p>Developed by Allen Mwandunga, MDT </p>
+        <p>Developed by Allen Mwandunga, MDT - Matric. No: 7219535 </p>
     </div>
     """,
     unsafe_allow_html=True

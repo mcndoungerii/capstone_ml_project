@@ -22,7 +22,9 @@ notebooks_dir = 'notebooks'
 os.makedirs(notebooks_dir, exist_ok=True)
 
 # Streamlit UI
-st.title("Upload and Display Jupyter Notebooks")
+st.image("assets/logo.png", width=200)
+st.title("Streamlit Notebook app")
+st.markdown("Upload and Display Jupyter Notebooks")
 
 # Upload .ipynb files
 uploaded_file = st.file_uploader("Upload a .ipynb file", type="ipynb")
@@ -39,6 +41,9 @@ files_in_notebooks = os.listdir(notebooks_dir)
 # Filter out .ipynb files
 ipynb_files = [file for file in files_in_notebooks if file.endswith('.ipynb')]
 
+# Sorted list
+ipynb_files.sort()
+
 # Function to delete a file
 def delete_file(filename):
     file_path = os.path.join(notebooks_dir, filename)
@@ -49,10 +54,31 @@ def delete_file(filename):
         st.error(f"File '{filename}' not found!")
 
 # Print the .ipynb files with delete options
-for ipynb_file in ipynb_files:
+for idx, ipynb_file in enumerate(ipynb_files):
     st.write(ipynb_file)
     nb = read_ipynb(f"./notebooks/{ipynb_file}")
     nb.display()
     if st.button(f"Delete '{ipynb_file}'", key=ipynb_file):
         delete_file(ipynb_file)
         st.experimental_rerun()
+
+# Add footer
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 10px 0;
+    }
+    </style>
+    <div class="footer">
+        <p>Developed by Allen Mwandunga, MDT </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)

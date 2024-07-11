@@ -1,10 +1,9 @@
 <div id="top"></div>
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/mcndoungerii/capstone_ml_project">
-    <h1 align="center">Streamlit NoteBook</h1>
+    <h1 align="center">Streamlit NoteBook App</h1>
   </a>
 
   <p align="center">
@@ -41,20 +40,6 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project <small id='about-the-project'></small>
-
-
-In recent years, building machine
-learning applications with Streamlit became so much popular. The apps were awesome but
-I noticed they lacked a key ingredient to make them even better.
-
-Streamlit apps were, simply, apps - a web page to showcase dashboards, try out models,
-etc.
-But those apps lacked a way to share how their creators built them and what their
-approaches were. Even if the creators wanted to do that, they had to turn to crude methods
-like linking to external links or docs where they outlined their approach.
-
-My idea was that developers should be able to do that right in the app itself. The process
-should be simple and require as little code as possible. And thus Strimlit NoteBook was born.
 
 StrimlitNoteBook is an API that allows you to convert Jupyter Notebooks to identical
 Streamlit components which you can embed right into your scripts where you build your
